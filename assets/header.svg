@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="200" viewBox="0 0 880 200">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b22"/>
+    </linearGradient>
+    <pattern id="grid" x="0" y="0" width="8" height="8" patternUnits="userSpaceOnUse">
+      <rect width="8" height="8" fill="none"/>
+      <rect width="1" height="1" fill="#21262d" x="0" y="0"/>
+    </pattern>
+  </defs>
+
+  <rect width="880" height="200" fill="url(#bg)"/>
+  <rect width="880" height="200" fill="url(#grid)"/>
+
+  <!-- Decorative pixel dots -->
+  <rect x="100" y="170" width="3" height="3" fill="#478CBF" opacity="0.4"/>
+  <rect x="200" y="175" width="3" height="3" fill="#5ac54f" opacity="0.3"/>
+  <rect x="350" y="170" width="3" height="3" fill="#b076f5" opacity="0.4"/>
+  <rect x="500" y="178" width="3" height="3" fill="#478CBF" opacity="0.3"/>
+  <rect x="600" y="172" width="3" height="3" fill="#e055d5" opacity="0.4"/>
+  <rect x="750" y="176" width="3" height="3" fill="#5ac54f" opacity="0.3"/>
+
+  <!-- Pixel bunny sprite (bouncing) -->
+  <g>
+    <animateTransform attributeName="transform" type="translate"
+      values="0,0; 0,-14; 0,0; 0,-7; 0,0"
+      keyTimes="0; 0.3; 0.5; 0.75; 1"
+      dur="1.6s" repeatCount="indefinite"/>
+    <!-- Ears -->
+    <rect x="38" y="42" width="5" height="20" fill="#5ac54f" rx="1"/>
+    <rect x="53" y="42" width="5" height="20" fill="#5ac54f" rx="1"/>
+    <rect x="39" y="42" width="3" height="12" fill="#b076f5" rx="1"/>
+    <rect x="54" y="42" width="3" height="12" fill="#b076f5" rx="1"/>
+    <!-- Head -->
+    <rect x="30" y="62" width="35" height="25" fill="#5ac54f" rx="2"/>
+    <!-- Eyes (blinking) -->
+    <rect x="37" y="68" width="5" height="5" fill="#0d1117" rx="1">
+      <animate attributeName="height" values="5;5;1;5;5" keyTimes="0;0.45;0.5;0.55;1" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="68;68;70;68;68" keyTimes="0;0.45;0.5;0.55;1" dur="3s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="50" y="68" width="5" height="5" fill="#0d1117" rx="1">
+      <animate attributeName="height" values="5;5;1;5;5" keyTimes="0;0.45;0.5;0.55;1" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="68;68;70;68;68" keyTimes="0;0.45;0.5;0.55;1" dur="3s" repeatCount="indefinite"/>
+    </rect>
+    <!-- Nose -->
+    <rect x="45" y="76" width="5" height="3" fill="#e055d5" rx="1"/>
+    <!-- Body -->
+    <rect x="33" y="87" width="29" height="16" fill="#478CBF" rx="2"/>
+    <!-- Belly highlight -->
+    <rect x="38" y="89" width="19" height="12" fill="#5a9fd4" rx="2"/>
+    <!-- Feet -->
+    <rect x="34" y="103" width="9" height="5" fill="#5ac54f" rx="1"/>
+    <rect x="49" y="103" width="9" height="5" fill="#5ac54f" rx="1"/>
+  </g>
+
+  <!-- Name -->
+  <text x="120" y="70" font-family="'Courier New', monospace" font-size="26" font-weight="bold" fill="#478CBF">
+    Mikayla P.
+  </text>
+
+  <!-- Role -->
+  <text x="120" y="92" font-family="'Courier New', monospace" font-size="14" fill="#5ac54f">
+    Solo Game Dev · Godot 4 · Pixel Art
+  </text>
+
+  <!-- Tags -->
+  <text x="120" y="114" font-family="'Courier New', monospace" font-size="11" fill="#6e7681">
+    GDScript · Aseprite 16×16 · Python 3 · Tiled · Audacity
+  </text>
+
+  <!-- Palette blocks (cycling) -->
+  <g transform="translate(620, 52)">
+    <rect x="0" y="0" width="18" height="18" rx="2" fill="#478CBF">
+      <animate attributeName="opacity" values="1;0.25;1;0.25;1" keyTimes="0;0.2;0.4;0.6;1" dur="2.5s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="22" y="0" width="18" height="18" rx="2" fill="#5ac54f">
+      <animate attributeName="opacity" values="0.25;1;0.25;1;0.25" keyTimes="0;0.2;0.4;0.6;1" dur="2.5s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="44" y="0" width="18" height="18" rx="2" fill="#b076f5">
+      <animate attributeName="opacity" values="0.25;0.25;1;0.25;0.25" keyTimes="0;0.2;0.4;0.6;1" dur="2.5s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="66" y="0" width="18" height="18" rx="2" fill="#e055d5">
+      <animate attributeName="opacity" values="1;0.25;0.25;0.25;1" keyTimes="0;0.2;0.4;0.6;1" dur="2.5s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="88" y="0" width="18" height="18" rx="2" fill="#f0c040">
+      <animate attributeName="opacity" values="0.25;1;0.25;1;0.25" keyTimes="0;0.2;0.4;0.6;1" dur="2.5s" begin="0.3s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="110" y="0" width="18" height="18" rx="2" fill="#ff6b6b">
+      <animate attributeName="opacity" values="0.25;0.25;1;0.25;0.25" keyTimes="0;0.2;0.4;0.6;1" dur="2.5s" begin="0.3s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- PRESS START (blinking) -->
+  <text x="690" y="108" font-family="'Courier New', monospace" font-size="16" font-weight="bold" fill="#5ac54f" text-anchor="middle">
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.4;0.5;1" dur="1.2s" repeatCount="indefinite"/>
+    ▸ PRESS START
+  </text>
+
+  <!-- Mini pixel hearts row -->
+  <g transform="translate(620, 125)">
+    <rect x="0" y="0" width="3" height="3" fill="#e055d5" opacity="0.5"/>
+    <rect x="3" y="0" width="3" height="3" fill="#e055d5" opacity="0.5"/>
+    <rect x="9" y="0" width="3" height="3" fill="#b076f5" opacity="0.4"/>
+    <rect x="12" y="0" width="3" height="3" fill="#b076f5" opacity="0.4"/>
+    <rect x="18" y="0" width="3" height="3" fill="#478CBF" opacity="0.3"/>
+    <rect x="21" y="0" width="3" height="3" fill="#478CBF" opacity="0.3"/>
+  </g>
+
+  <!-- Blinking cursor (bottom right) -->
+  <rect x="842" y="168" width="10" height="20" fill="#5ac54f" rx="1">
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.4;0.5;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Bottom border line -->
+  <rect x="0" y="198" width="880" height="2" fill="#21262d"/>
+  <rect x="0" y="198" width="200" height="2" fill="#478CBF" opacity="0.5"/>
+  <rect x="200" y="198" width="200" height="2" fill="#5ac54f" opacity="0.5"/>
+  <rect x="400" y="198" width="200" height="2" fill="#b076f5" opacity="0.5"/>
+  <rect x="600" y="198" width="280" height="2" fill="#e055d5" opacity="0.5"/>
+</svg>
