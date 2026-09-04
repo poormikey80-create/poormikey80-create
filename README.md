@@ -1,6 +1,18 @@
-# Mikayla P.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/poormikey80-create/poormikey80-create/main/assets/header.svg" alt="Mikayla P. — Solo Game Dev" width="880"/>
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/poormikey80-create/poormikey80-create/main/assets/now.svg" alt="now" width="720"/>
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Godot-4.x-478CBF?style=flat&logo=godotengine&logoColor=white" height="22"/>
+  <img src="https://img.shields.io/badge/GDScript-2.0-355570?style=flat" height="22"/>
+  <img src="https://img.shields.io/badge/Aseprite-pixel%20art-7D929E?style=flat" height="22"/>
+  <img src="https://img.shields.io/badge/Python-3-3776AB?style=flat&logo=python&logoColor=white" height="22"/>
+  <img src="https://img.shields.io/badge/Audacity-000000?style=flat&logo=audacity&logoColor=white" height="22"/>
+</p>
 
-[![Godot](https://img.shields.io/badge/Godot-4.x-478CBF?style=flat&logo=godotengine&logoColor=white)](https://godotengine.org) [![GDScript](https://img.shields.io/badge/GDScript-2.0-355570?style=flat)](https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/index.html) [![Aseprite](https://img.shields.io/badge/Aseprite-pixel%20art-7D929E?style=flat)](https://www.aseprite.org)
+---
 
 Solo game dev in Austin, TX. I build small 2D games in Godot 4 and draw the art
 myself in Aseprite, usually at 16x16, because that is the biggest canvas I can
@@ -40,6 +52,17 @@ off-palette.
 Three dependency-free GDScript helpers I copy into every project: a tiny state
 machine, a cooldown timer, and the math functions Godot does not ship with.
 
+**[godot-shaders](https://github.com/poormikey80-create/godot-shaders)**
+Three 2D shaders I re-typed across too many jams before I accepted they
+deserved a repo: an outline shader for selection and glow, a palette-swap
+shader for character variants without duplicate sprites, and a dissolve
+shader for death animations that does not need an external noise texture.
+
+**[sfx-kitchen](https://github.com/poormikey80-create/sfx-kitchen)**
+A zero-dependency Python script that generates game SFX from basic waveforms
+with ADSR envelopes and frequency sweeps. Exists because my mouth is not a
+synthesizer, no matter how much Audacity insists it could be.
+
 ## Currently
 
 Prototyping a one-room dungeon crawler where the room rotates instead of the
@@ -48,6 +71,16 @@ slow and mostly happens on weekends.
 
 Also slowly porting my old jam entries off a dying external drive, so a few
 repos here will look suspiciously like 2019 code. They are.
+
+## 📊 Activity
+
+<p align="center">
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=poormikey80-create&show_icons=true&theme=transparent&hide_border=true&count_private=true"/>
+  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=poormikey80-create&layout=compact&theme=transparent&hide_border=true"/>
+</p>
+<p align="center">
+  <img width="720" src="https://github-readme-activity-graph.vercel.app/graph?username=poormikey80-create&theme=github-compact&hide_border=true&radius=8"/>
+</p>
 
 ## Contact
 
