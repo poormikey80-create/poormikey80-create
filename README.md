@@ -75,11 +75,11 @@ repos here will look suspiciously like 2019 code. They are.
 ## 📊 Activity
 
 <p align="center">
-  <img height="160" src="https://gh-profile-stats.zli39uclan.workers.dev/stats?username=poormikey80-create&hide_border=true"/>
-  <img height="160" src="https://gh-profile-stats.zli39uclan.workers.dev/top-langs?username=poormikey80-create&hide_border=true"/>
+  <img height="160" src="https://gh-profile-stats.zli39uclan.workers.dev/stats?username=poormikey80-create&accent=5ac54f&cell=circle&hide_border=true"/>
+  <img height="160" src="https://gh-profile-stats.zli39uclan.workers.dev/top-langs?username=poormikey80-create&accent=5ac54f&cell=circle&hide_border=true"/>
 </p>
 <p align="center">
-  <img width="720" src="https://gh-profile-stats.zli39uclan.workers.dev/activity?username=poormikey80-create&hide_border=true"/>
+  <img width="720" src="https://gh-profile-stats.zli39uclan.workers.dev/activity?username=poormikey80-create&accent=5ac54f&cell=circle&hide_border=true"/>
 </p>
 
 ## Contact
