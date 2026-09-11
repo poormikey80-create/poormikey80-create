@@ -75,11 +75,11 @@ repos here will look suspiciously like 2019 code. They are.
 ## 📊 Activity
 
 <p align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=poormikey80-create&show_icons=true&theme=transparent&hide_border=true&count_private=true"/>
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=poormikey80-create&layout=compact&theme=transparent&hide_border=true"/>
+  <img height="160" src="https://gh-profile-stats.zli39uclan.workers.dev/stats?username=poormikey80-create&hide_border=true"/>
+  <img height="160" src="https://gh-profile-stats.zli39uclan.workers.dev/top-langs?username=poormikey80-create&hide_border=true"/>
 </p>
 <p align="center">
-  <img width="720" src="https://github-readme-activity-graph.vercel.app/graph?username=poormikey80-create&theme=github-compact&hide_border=true&radius=8"/>
+  <img width="720" src="https://gh-profile-stats.zli39uclan.workers.dev/activity?username=poormikey80-create&hide_border=true"/>
 </p>
 
 ## Contact
